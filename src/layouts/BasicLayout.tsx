@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { connect, Dispatch } from 'umi';
 import { ConnectState, ConnectProps, UserModelState } from '@/models/connect';
-import Nav from '../components/Nav';
+import Nav from '@/components/Nav';
 import '@/static/iconfont/iconfont.css';
 import styles from './index.less';
 interface BasicLayoutProps extends ConnectProps {

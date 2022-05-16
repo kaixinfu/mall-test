@@ -17,8 +17,6 @@ const User: React.FC<UserProps> = ({ dispatch, user }) => {
   const logout = () => {
     dispatch({ type: 'user/logout' });
   };
-  console.log('user', user);
-
   return (
     <div>
       <Header name={name} icon={icon} />

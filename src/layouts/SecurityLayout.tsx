@@ -2,7 +2,6 @@ import React, { ReactElement } from 'react';
 import { connect, Dispatch, Redirect } from 'umi';
 import { ConnectState, ConnectProps, UserModelState } from '@/models/connect';
 import '@/static/iconfont/iconfont.css';
-import styles from './index.less';
 interface SecurityLayoutProps extends ConnectProps {
   user: UserModelState;
   children: ReactElement;
