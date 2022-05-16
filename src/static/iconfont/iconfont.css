@@ -1,0 +1,77 @@
+@font-face {
+  font-family: "iconfont"; /* Project id  */
+  src: url('iconfont.ttf?t=1652682036830') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-vipcard:before {
+  content: "\e6ee";
+}
+
+.icon-fenlei:before {
+  content: "\f00d6";
+}
+
+.icon-daifahuo:before {
+  content: "\f0138";
+}
+
+.icon-gouwuche:before {
+  content: "\e73d";
+}
+
+.icon-shouye:before {
+  content: "\e64f";
+}
+
+.icon-xiangyoujiantou:before {
+  content: "\e65f";
+}
+
+.icon-xiangzuojiantou:before {
+  content: "\e660";
+}
+
+.icon-dizhi:before {
+  content: "\e652";
+}
+
+.icon-nogoods:before {
+  content: "\e686";
+}
+
+.icon-liebiao:before {
+  content: "\e62d";
+}
+
+.icon-sousuo:before {
+  content: "\e86e";
+}
+
+.icon-pingjia:before {
+  content: "\e641";
+}
+
+.icon-dingdan:before {
+  content: "\e645";
+}
+
+.icon-wode:before {
+  content: "\e70b";
+}
+
+.icon-fenlei1:before {
+  content: "\e71b";
+}
+
+.icon-dingdanliebiao:before {
+  content: "\e668";
+}
+
