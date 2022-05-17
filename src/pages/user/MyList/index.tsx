@@ -8,23 +8,23 @@ const grids = [
   {
     icon: 'vipcard',
     text: '待付款',
-    to: '/olist',
+    to: '/orders',
   },
   {
     icon: 'daifahuo',
     text: '待发货',
-    to: '/olist',
+    to: '/orders',
   },
 
   {
     icon: 'nogoods',
     text: '待收货',
-    to: '/olist',
+    to: '/orders',
   },
   {
     icon: 'pingjia',
     text: '待评价',
-    to: '/olist',
+    to: '/orders',
   },
 ];
 
@@ -34,7 +34,7 @@ const MyList = () => {
       <Card full>
         <Card.Header
           title="我的订单"
-          extra={<Link to="/olist">查看全部订单</Link>}
+          extra={<Link to="/orders">查看全部订单</Link>}
           className={classnames(styles.header, 'font12')}
         />
 
