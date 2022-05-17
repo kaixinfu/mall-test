@@ -19,7 +19,7 @@ const BasicLayout: React.FC<BasicLayoutProps> = (props) => {
   const { pathname } = location;
   return (
     <div className={styles.main}>
-      <div className="layout-container">{props.children}</div>
+      <div className={styles.layout}>{props.children}</div>
       {pathname !== '/login' ? <Nav pathname={pathname} /> : null}
     </div>
   );
