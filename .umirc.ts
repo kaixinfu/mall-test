@@ -37,6 +37,7 @@ export default defineConfig({
       routes: [
         { path: '/', component: '@/pages/home' },
         { path: '/login', component: '@/pages/login' },
+        { path: '/search', component: '@/pages/search' },
         {
           path: '/',
           component: '@/layouts/SecurityLayout', // 登录的路由守卫
