@@ -2,6 +2,9 @@
 import { defineConfig } from 'umi';
 
 export default defineConfig({
+  history: { type: 'hash' },
+  base: '/kx',
+  title: '这是个商城',
   nodeModulesTransform: {
     type: 'none',
   },
